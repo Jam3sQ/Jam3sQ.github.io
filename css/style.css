@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Raleway);
+@import url(http://fonts.googleapis.com/css?family=Raleway);
 
 body {
    font-family: "Raleway";
@@ -43,9 +43,10 @@ body {
 
 .pcontainer{
     background-color: #03A9F4;
-    background: url(http://i1036.photobucket.com/albums/a441/James_Q/13248454_1603142886644011_3693038196914407022_o_zpsfpyicyv7.jpg) no-repeat center center;
+    background: url(http://i1036.photobucket.com/albums/a441/James_Q/5e34cf24-b15a-4461-9768-157f0c77276a_zpsfkm2pocm.jpg) no-repeat center center;
     height: 100vh;
     background-size: cover;
+  
 }
 
 .pcontainer img {
@@ -64,22 +65,28 @@ body {
 
 .pcontainer h1{
   margin-top: 50px; 
-  color: white; 
+  font-size: 300%;
+  color: white;
+  font-weight: bold;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
 }
+
+
 
 .about-container{
   background-color: #f2f2f2;
-  margin-top: 0px; 
+  height: 120vh;
 }
 
 .about-container div{
   position: relative;
   top: 50%;
-  transform: translateY(0%);
+  transform: translateY(-50%);
   width: 500px;
   margin-left: auto;
   margin-right: auto;
-  padding: 200px 0px 200px 0px;
   font-size: large;
   max-height: 90%;
   max-width: 90%;
@@ -87,11 +94,13 @@ body {
 
 .projects-container {
   background-color: #03A9F4;
-  padding-bottom: 40px;
+  padding-bottom: 20vh;
+  padding-top: 10vh; 
+
 }
 
 .projects-container h1{
-  margin-top: 50px;
+  margin: 50px auto 50px auto;
 }
 
 .projectWrapper {
@@ -114,7 +123,7 @@ body {
 }
 
 .projectWrapper:hover img {
-  opacity: 0.3;
+  opacity: 0.2;
 }
 
 .projectHoverText {
@@ -153,13 +162,14 @@ body {
 
 .contact-container{
   background-color: #f2f2f2;
+  height: 100vh;
 }
 
 .contact-container div{
   position: relative;
   top: 50%;
-  transform: translateY(0%);
-  padding: 200px 0px 200px 0px;
+  transform: translateY(-50%);
+
 }
 
 .connect-container{
