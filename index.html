@@ -26,7 +26,7 @@
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
   
 <!-- Navigation bar-->
-<nav class="navbar navbar-default navbar-fixed-top" style="background-color: #0288D1; box-shadow: black 0px -10px 20px;" id="">
+<nav class="navbar navbar-default navbar-fixed-top" style="background-color: #0288D1; box-shadow: black 0px -10px 20px;" id="nav">
   <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#my-navbar">
@@ -118,6 +118,20 @@
 <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
 
         <script src="js/index.js"></script>
+
+        
+
+            <style type="text/css">
+    .headroom {position: fixed;top: 0;left: 0;right: 0;transition: all .2s ease-in-out;}
+    .headroom--unpinned {top: -100px;}
+    .headroom--pinned {top: 0;}
+    </style>
+    <script src="https://rawgithub.com/WickyNilliams/headroom.js/gh-pages/assets/scripts/main.js"></script>
+        
+   <script  type="text/javascript"  src="https://rawgithub.com/WickyNilliams/headroom.js/master/src/jQuery.headroom.js"></script>
+    <script type="text/javascript">
+        $(".navbar-fixed-top").headroom();
+    </script>  
 
     
     
