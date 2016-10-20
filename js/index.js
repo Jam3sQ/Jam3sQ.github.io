@@ -10,3 +10,7 @@ function smoothScrollTo(offsetTop) {
     scrollTop: offsetTop
   }, 1000);
 }
+
+
+
+
