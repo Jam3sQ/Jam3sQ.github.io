@@ -49,47 +49,53 @@
 </nav>
 
 <!-- Profile Section-->
-<div class="container-fluid pcontainer text-center" id="Profile-Section">
-  <h1>I'm James<br>Welcome to my Playground</h1>
+<div class="pcontainer" id="Profile-Section">
+  <h1>Hey, I'm<br>James Quiambao</h1>
 </div>
 
 <!-- About Me Section-->
-<div class="container-fluid about-container " id="About-Section">
+<div class="about-container" id="About-Section">
   <div> 
-    <h1 class="text-center">About Me</h1>
+    <h2>Engineering Student. Aspiring Developer. Tech Enthusiast.</h2>
     <p>My name is James Quiambao and I'm going into my first year of Mechanical Engineering at the University of Waterloo. At first I wasn't too fond of the technology sector but witnessing first hand the power of coding and how you are limited only by your imagination motivated me to learn programming. Other than learning programming, other interests of mine include working out, basketball, volunteering, and reading books.
-      <br>My technical skills include C#, MATLAB, HTML5/CSS3, Javascript, SQL. Frameworks: JQuery, Bootstrap, CAD Software: AutoCAD.  </p>
+      <br>My technical skills include C#, MATLAB, HTML5/CSS3, Javascript, SQL. Frameworks/Libraries: JQuery, Bootstrap, CAD Software: AutoCAD.  </p>
   </div>
 </div>
 
 
 <!-- Projects Section -->
-<div class="container-fluid projects-container text-center" id="Projects-Section">
+<div class="projects-container text-center" id="Projects-Section">
   <h1>Here's a couple of my projects</h1>
-  <div class="allProjects">
+  <div class="projectsFlex">
     <div class="projectWrapper">
       <a target="_blank" href="http://codepen.io/Jam3s_Q/pen/ORLggJ">
-      <img class="" src="https://i.ytimg.com/vi/WrO9PTpuSSs/maxresdefault.jpg" alt="" />
+      <img class="" src="images/nujabes.jpg" alt="" />
          <div class="projectHoverText">Nujabes Tribute Project</div>
       </a>
     </div>
     <div class="projectWrapper">
       <a target="_blank" href="http://codepen.io/Jam3s_Q/full/VKabbq/">
-      <img class="" src="http://i1036.photobucket.com/albums/a441/James_Q/2016-09-26%201_zpsdnujwvps.png" alt="" />
+      <img class="" src="images/RandomQuote.PNG" alt="" />
       <div class="projectHoverText">Random Quote Generator</div>
       </a>  
     </div>
-    <div class="projectWrapper">
+    <div class="projectWrapper firstRow">
       <a target="_blank" href="http://codepen.io/Jam3s_Q/full/ozkGkb/">
-        <img class="" src="http://i1036.photobucket.com/albums/a441/James_Q/WeatherApp_zpsg8q9mknu.png" alt="" />
-        <div class="projectHoverText">Local Weather App</div>
+        <img class="" src="images/Weather.PNG" alt="" />
+        <div class="projectHoverText">Local Weather</div>
+      </a>
+    </div>
+     <div class="projectWrapper">
+      <a target="_blank" href="http://jamesquiambao.me/WikipediaSearch/">
+        <img class="" src="images/WikipediaSearch.png" alt="" />
+        <div class="projectHoverText">Wikipedia Search</div>
       </a>
     </div>
   </div>
 </div>
 
 <!-- Contact Section -->
-<div class="contact-container container-fluid text-center center" id="Contact-Section">
+<div class="contact-container text-center center" id="Contact-Section">
   
   <div>
   <h1>Get in Touch</h1>
@@ -97,17 +103,15 @@
   <p class="connect-container">jquiambao@uwaterloo.ca<br>647-262-8915</p>
     <h4><br>Follow</h4>
      <ul class="social">
-         <li><a href="https://ca.linkedin.com/in/jamesquiambao" target="_blank"><i class="linkedin fa fa-linkedin-square fa-3x"></i></a></li>
-         <li><a href="https://codepen.io/Jam3s_Q/pens/public/" target="_blank"><i class="fa fa-codepen fa-3x"></i></a></li>
-         <li><a href="https://github.com/Jam3sQ" target="_blank"><i class="fa fa-github fa-3x"></i></a></li>
-         <li><a href="https://www.freecodecamp.com/jam3sq" target="_blank"><i class="fa fa-fire fa-3x"></i></a></li>
+         <li><a href="https://ca.linkedin.com/in/jamesquiambao" target="_blank" data-toggle="tooltip" title="Linkedin"><i class="linkedin fa fa-linkedin-square fa-3x"></i></a></li>
+         <li><a href="https://codepen.io/Jam3s_Q/pens/public/" target="_blank" data-toggle="tooltip" title="Codepen"><i class="fa fa-codepen fa-3x" ></i></a></li>
+         <li><a href="https://github.com/Jam3sQ" target="_blank" data-toggle="tooltip" title="Github"><i class="fa fa-github fa-3x"></i></a></li>
+         <li><a href="https://www.freecodecamp.com/jam3sq" target="_blank" data-toggle="tooltip" title="FreeCodeCamp"><i class="fa fa-fire fa-3x"></i></a></li>
       </ul>
   </div>
 </div>
 
 <!--Footer-->
-
-
 <footer class="text-center">
   <div class="footer-paragraph">
     <p>Meticulously hand crafted by James Quiambao &copy; 2016.</p>
@@ -133,8 +137,6 @@
         $(".navbar-fixed-top").headroom();
     </script>  
 
-    
-    
     
   </body>
 </html>
