@@ -1,0 +1,240 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+
+body {
+   font-family: "Raleway";
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+
+}
+
+.navbar{
+  padding: 0px;
+  margin: 0px;
+  border: 0;
+}
+
+.nav.navbar-nav li a {
+  color: black;
+  margin: auto; 
+}
+
+ .navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+    font-size: 0;
+}
+
+.link-1 {
+  transition: 0.3s;
+  color: #ffffff;
+  font-size: 15px;
+  /*Possibly Remove this...*/
+  padding: 0px 10px 0px 10px;
+}
+
+.link-1:hover {
+  border-top: 4px solid #ffffff;
+  border-bottom: 4px solid #ffffff;
+  padding: 3px 0; 
+}
+
+.pcontainer{
+    background-color: #03A9F4;
+    background: url(http://i1036.photobucket.com/albums/a441/James_Q/ad68f472-b6e7-4a8f-a76c-99af2631ffb7_zpsrnvjogwa.jpg) no-repeat center center;
+    height: 100vh;
+    background-size: cover;
+    text-align: center;
+}
+
+.pcontainer h1{
+  margin-top: 50px; 
+  font-size: 3em;
+  color: white;
+  font-weight: bold;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.about-container{
+  background-color: #f2f2f2;
+  min-height: 100vh;
+  height: auto;
+  display: flex;
+  align-items: center;
+}
+
+.about-container p{
+  width: 50vw;
+  font-size: 1.2em;
+  margin-left: auto;
+  margin-right: auto;
+  max-height: 90%;
+  max-width: 90%;
+  /*min-width: 90%;*/
+  text-align: justify;
+}
+
+.about-container div h2{
+  width: 100vw;
+  text-align: center;
+  font-size: 2em;
+}
+
+.projects-container {
+  background-color: #03A9F4;
+  padding-bottom: 10vh;
+  padding-top: 10vh; 
+  min-height: 100vh;  
+}
+
+.projects-container h1{
+  margin: 50px auto 50px auto;
+  width: 100%;
+}
+
+.projectsFlex{
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.projectWrapper {
+  max-width: 350px;
+  max-height: 150px;
+  overflow: hidden;
+  margin: 10px;
+  border-radius: 8px;
+  transition: 0.6s ease;
+}
+
+.projectWrapper:hover{
+  transform: scale(1.1);
+}
+
+.projects-container img{
+  opacity: 1.0;
+}
+
+.projectWrapper img {
+  width: 100%;
+  transition: 0.4 ease;
+}
+
+.projectWrapper:hover img {
+  opacity: 0.2;
+}
+
+.projectHoverText {
+  display: none;
+  font-size: large;
+}
+
+.projectWrapper:hover .projectHoverText {
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  border-radius: 8px;
+  padding: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: rgba(247, 110, 112, 0.75);
+  color: #fff;
+  font-family: PT sans;
+  display: none;
+  height: 100%;
+  width: 100%;
+  font-size: 1em;
+}
+
+.thumbnail {
+  position: relative;
+  overflow: hidden;
+}
+
+.contact-container{
+  background-color: #f2f2f2;
+  height: 100vh;
+}
+
+.contact-container div{
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+
+}
+
+.contact-container h1{
+  margin-top: 0px;
+}
+
+.connect-container{
+  width: 500px;
+  max-width: 90%;
+  max-height: 90%; 
+  margin: auto;
+  font-size: large;
+}
+
+.social{
+  padding: 0px;
+}
+
+.social li{
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: white;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+footer{
+  background-color: #0093D1;
+  padding: 20px 0px 20px 0px;
+}
+
+.footer-paragraph{
+  position: relative;
+  top: 50%;
+  transform: translateY(0%);
+}
+
+.navbar-fixed-top{
+  transition: transform 1000ms linear;
+}
+
+
+
+
+
+
+
+
