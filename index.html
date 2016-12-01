@@ -1,27 +1,30 @@
 <!DOCTYPE html>
 <html >
   <head>
+    <!-- Meta data -->
     <meta charset="UTF-8">
     <meta name="keywords" content="James, Quiambao, Website, Waterloo, Developer, Engineering">
     <meta name="author" content="James Quiambao">
     <meta name="description" content="Personal website to showcase information, projects, and other fun stuff">
     <title>James Quiambao | Website </title>
+
+    <!-- Responsiveness -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    
-    
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+
+    <!-- Bootstrap -->
     <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
 
-        <link rel="stylesheet" href="css/style.css">
-
-    
-    
-    
+    <!-- Link to CSS -->
+    <link rel="stylesheet" href="css/style.css">
   </head>
 
   <body>
 
-      <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+      
 
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
   
@@ -38,7 +41,7 @@
     
     <div class="collapse navbar-collapse" id="my-navbar">
       <ul class="nav navbar-nav">
-        <li class="link-1"><a href="#Profile-Section" onclick="smoothScrollTo(homeOffsetTop);">Home</a></li>
+        <li class="link-1"><a href="#Home-Section" onclick="smoothScrollTo(homeOffsetTop);">Home</a></li>
         <li class="link-1"><a href="#About-Section" onclick="smoothScrollTo(aboutOffsetTop);">About</a></li>
         <li class="link-1"><a href="#Projects-Section" onclick="smoothScrollTo(projectsOffsetTop);">Projects</a></li>
         <li class="link-1"><a href="#Contact-Section" onclick="smoothScrollTo(contactOffsetTop);">Contact</a></li>
@@ -49,7 +52,7 @@
 </nav>
 
 <!-- Profile Section-->
-<div class="pcontainer" id="Profile-Section">
+<div class="home-container" id="Home-Section">
   <h1>Hey, I'm<br>James Quiambao</h1>
 </div>
 
@@ -58,7 +61,7 @@
   <div> 
     <h2>Engineering Student. Aspiring Developer. Tech Enthusiast.</h2>
     <p>My name is James Quiambao and I'm going into my first year of Mechanical Engineering at the University of Waterloo. At first I wasn't too fond of the technology sector but witnessing first hand the power of coding and how you are limited only by your imagination motivated me to learn programming. Other than learning programming, other interests of mine include working out, basketball, volunteering, and reading books.
-      <br>My technical skills include C#, MATLAB, HTML5/CSS3, Javascript, SQL. Frameworks/Libraries: JQuery, Bootstrap, CAD Software: AutoCAD.  </p>
+      <br>My technical skills include HTML5/CSS3, JavaScript, Node.js, Express.js, C#, and MATLAB.</p>
   </div>
 </div>
 
@@ -106,7 +109,7 @@
          <li><a href="https://ca.linkedin.com/in/jamesquiambao" target="_blank" data-toggle="tooltip" title="Linkedin"><i class="linkedin fa fa-linkedin-square fa-3x"></i></a></li>
          <li><a href="https://codepen.io/Jam3s_Q/pens/public/" target="_blank" data-toggle="tooltip" title="Codepen"><i class="fa fa-codepen fa-3x" ></i></a></li>
          <li><a href="https://github.com/Jam3sQ" target="_blank" data-toggle="tooltip" title="Github"><i class="fa fa-github fa-3x"></i></a></li>
-         <li><a href="https://www.freecodecamp.com/jam3sq" target="_blank" data-toggle="tooltip" title="FreeCodeCamp"><i class="fa fa-fire fa-3x"></i></a></li>
+         <li><a href="https://www.freecodecamp.com/jam3sq" target="_blank" data-toggle="tooltip" title="FreeCodeCamp"><i class="fa fa-fire  fa-3x"></i></a></li>
       </ul>
   </div>
 </div>
@@ -118,24 +121,17 @@
   </div>
 </footer>
 </body>
-    <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
-<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
+  <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+  <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
 
-        <script src="js/index.js"></script>
+  <script src="js/index.js"></script>
 
+  <script src="https://rawgithub.com/WickyNilliams/headroom.js/gh-pages/assets/scripts/main.js"></script>
         
-
-            <style type="text/css">
-    .headroom {position: fixed;top: 0;left: 0;right: 0;transition: all .2s ease-in-out;}
-    .headroom--unpinned {top: -100px;}
-    .headroom--pinned {top: 0;}
-    </style>
-    <script src="https://rawgithub.com/WickyNilliams/headroom.js/gh-pages/assets/scripts/main.js"></script>
-        
-   <script  type="text/javascript"  src="https://rawgithub.com/WickyNilliams/headroom.js/master/src/jQuery.headroom.js"></script>
-    <script type="text/javascript">
-        $(".navbar-fixed-top").headroom();
-    </script>  
+  <script  type="text/javascript"  src="https://rawgithub.com/WickyNilliams/headroom.js/master/src/jQuery.headroom.js"></script>
+  <script type="text/javascript">
+      $(".navbar-fixed-top").headroom();
+  </script>  
 
     
   </body>
