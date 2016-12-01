@@ -1,9 +1,10 @@
 var htmlAndBody = $('html,body');
-var homeOffsetTop = $("#Profile-Section").offset().top;
+var homeOffsetTop = $("#Home-Section").offset().top;
 var aboutOffsetTop = $("#About-Section").offset().top;
 var projectsOffsetTop = $("#Projects-Section").offset().top;
 var contactOffsetTop = $("#Contact-Section").offset().top;
 
+//Code for smooth scrolling 
 function smoothScrollTo(offsetTop) {
   event.preventDefault();
   htmlAndBody.animate({
