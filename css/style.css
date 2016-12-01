@@ -43,7 +43,7 @@ body {
   padding: 3px 0; 
 }
 
-.pcontainer{
+.home-container{
     background-color: #03A9F4;
     background: url(http://i1036.photobucket.com/albums/a441/James_Q/ad68f472-b6e7-4a8f-a76c-99af2631ffb7_zpsrnvjogwa.jpg) no-repeat center center;
     height: 100vh;
@@ -51,7 +51,7 @@ body {
     text-align: center;
 }
 
-.pcontainer h1{
+.home-container h1{
   margin-top: 50px; 
   font-size: 3em;
   color: white;
